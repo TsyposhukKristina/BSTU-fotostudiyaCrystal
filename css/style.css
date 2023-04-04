@@ -134,7 +134,7 @@ body {
 .intro{
   height: 563px;
   width: 1024px;
-  background-image: url(/assets/jpg/Group\ 1.jpg);
+  background-image: url(/assets/jpg/Group1.jpg);
   background-size: cover;
   position: relative;
 }
@@ -409,7 +409,7 @@ body {
   min-height: 561px;
   max-width: 1024px; 
   margin: 91px 0 0 0;
-  background-image: url(/assets/png/Rectangle\ 18.png);
+  background-image: url(/assets/png/Rectangle18.png);
   background-size: cover;
   position: relative;
   display: flex;
