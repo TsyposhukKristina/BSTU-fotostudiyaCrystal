@@ -134,7 +134,7 @@ body {
 .intro{
   height: 563px;
   width: 1024px;
-  background-image: url(/assets/jpg/Group1.jpg);
+  background-image: url('/assets/jpg/Group1.jpg');
   background-size: cover;
   position: relative;
 }
