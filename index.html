@@ -11,10 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/style768.css">
-    <link rel="stylesheet" href="./css/style320.css">
+    <link rel="stylesheet" href="style.css">
 
     <title>Фотостудия Crystal</title>
     
@@ -22,7 +19,7 @@
 </head>
 
 <body>
-    <header class="header">
+   <header class="header">
          <div class="wrapper">
             <div class="header__wrapper">
                 <div class="header__logo">
@@ -39,13 +36,13 @@
 
                 </div>
                
-                <nav class="header__nav">
-                    <div class="burger">
-                        <a href="/" class="burger-menu">
-                            <img src="./assets/png/menu.png" alt="Burger" 
-                            class="burger__span" >
-                        </a>
-                    </div>
+                    <nav class="header__nav">
+                       
+                        <input id="menu-toggle" type="checkbox">
+                        <label class="menu-btn" for="menu-toggle">
+                          <span></span>
+                        </label>
+
                     <ul class="header__list">
                         <li class="header__item">
                              <a href="#!" class="header__link">Услуги</a>
