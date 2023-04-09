@@ -1,0 +1,219 @@
+.price__title {
+    text-align: right;
+    padding: 70px 102px 0 0;
+
+    @media (max-width: 768px){
+      padding: 29px 50px 0 0;
+    }
+
+    @media (max-width: 320px){
+      padding: 18px 20px 0 0;
+    }
+  }
+  
+  .price__line {
+    max-width: 327px;
+    background-color: #84964C;
+    right: 0;
+    top: 139px; 
+
+    @media (max-width: 768px){
+      max-width: 180px;
+      top: 69px; 
+    }
+
+    @media (max-width: 320px){
+      max-width: 80px;
+      top: 37px; 
+    }
+  }
+  
+  .price{
+    max-width: 1024px;
+    position: relative;
+
+    @media (max-width: 768px){
+      max-width: 768px;
+    }
+
+    @media (max-width: 320px){
+      max-width: 320px;
+    }
+  }
+  .price__cards{ 
+    min-width: 985px;
+    padding: 98px 0 0 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 82px 0;
+
+    @media (max-width: 768px){
+      min-width: 720px;
+      padding: 73px 0 0 0;
+      gap: 48px 0;
+    }
+
+    @media (max-width: 320px){
+      min-width: 300px;
+      padding: 32px 0 0 0;
+      gap: 12px 0;
+    }
+  }
+  
+  .price__card{
+    min-height: 445px;
+    display: flex;
+    gap: 0px;
+    align-items: center;
+
+    @media (max-width: 768px){
+      min-height: 251px;
+    }
+
+    @media (max-width: 320px){
+      min-height: 129px;
+    }
+
+  }
+  
+  .price__one{
+    margin: 0 0 0 39px;
+
+    @media (max-width: 768px){
+      margin: 0 0 0 24px;
+    }
+
+    @media (max-width: 320px){
+      margin: 0 0 0 9px;
+    }
+
+  }
+  
+  .price__second{
+    margin: 0 39px 0 0px;
+
+    @media (max-width: 768px){
+      margin: 0 0 0 24px;
+    }
+
+    @media (max-width: 320px){
+      margin: 0 0 0 14px;
+    }
+
+  }
+  
+  .price__card__one-paragraph {
+    min-width: 540px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 50.81px;
+    text-align: center;
+    color: #000000;
+    backdrop-filter: blur(2px);
+
+    @media (max-width: 768px){
+      min-width: 448px;
+      font-size: 30px;
+      line-height: 25.5px;
+    }
+
+    @media (max-width: 320px){
+      min-width: 171px;
+      font-size: 15px;
+      line-height: 80%;
+    }
+
+  }
+  
+  .span{
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 44.46px;
+
+    @media (max-width: 768px){
+      font-size: 30px;
+      line-height: 0px;
+    }
+
+    @media (max-width: 320px){
+      font-size: 15px;
+      line-height: 0px;
+    }
+
+  }
+  .price__bold{
+    font-weight: 400;
+    line-height: 50.81px;
+
+    @media (max-width: 768px){
+      line-height: 0px;
+      font-size: 25px;
+    }
+
+    @media (max-width: 320px){
+      line-height: 0px;
+      font-size: 15px;
+    }
+
+  }
+  .price__size{
+    font-size: 35px;
+    line-height: 44.46px;
+
+    @media (max-width: 768px){
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 0px;
+    }
+
+    @media (max-width: 320px){
+      font-weight: 300;
+      font-size: 10px;
+      line-height: 0px;
+    }
+
+  }
+  
+  .price__card-second{
+    @media (max-width: 768px){
+      min-height: 251px;
+      display: flex;
+      gap: 0px;
+      align-items: center;
+    }
+
+    @media (max-width: 320px){
+      min-height: 129px;
+      display: flex;
+      gap: 0px;
+      align-items: center;
+    }
+
+  }
+  
+  .price__card__one-img {
+    @media (max-width: 768px){
+      width: 251px;
+      height: 251px;
+    }
+
+    @media (max-width: 320px){
+      width: 129px;
+      height: 129px;
+    }
+
+  }
+
+  .price__interval{
+    @media (max-width: 768px){
+      line-height: 38.11px;
+    }
+
+    @media (max-width: 320px){
+      line-height: 20.11px;
+    }
+
+  }
