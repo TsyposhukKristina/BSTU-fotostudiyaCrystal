@@ -1,0 +1,46 @@
+  .video__title {
+    padding: 69px 0 0 81px;
+
+    @media (max-width: 768px){
+      padding: 51px 0 0 43px;
+    }
+
+    @media (max-width: 320px){
+      padding: 26px 0 0 17px;
+    }
+  }
+  
+  .video__line {
+    max-width: 327px;
+    left: 0px;
+    top: 137px; 
+    background-color: #A28364;
+
+    @media (max-width: 768px){
+      max-width: 180px;
+      top: 91px; 
+    }
+
+    @media (max-width: 320px){
+      max-width: 180px;
+      top: 45px; 
+    }
+  }
+  .video__main{
+    max-width: 945px;
+    height: 532px;
+    display: block;
+    margin: 100px auto 0 auto;
+
+    @media (max-width: 768px){
+      max-width: 770px;
+      height: 435px;
+      margin: 52px auto 0 auto;
+    }
+
+    @media (max-width: 320px){
+      max-width: 320px;
+      height: 180px;
+      margin: 25px auto 0 auto;
+    }
+  }

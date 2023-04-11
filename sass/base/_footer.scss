@@ -1,0 +1,135 @@
+.footer{
+    max-width: 1024px;
+    position: relative;
+    min-height: 185px;
+    padding: 0px 10px 0 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*gap: 85px 0;*/
+
+    @media (max-width: 768px){
+      max-width: 768px;
+      min-height: 107px;
+      padding: 0px 10px 0 10px;
+    }
+
+    @media (max-width: 320px){
+      max-width: 320px;
+      min-height: 39px;
+      padding: 0px 11px 0 11px;
+    }
+  }
+  
+  .footer__first{
+    display: flex;
+    /*justify-content: center;
+    flex-wrap: wrap; */
+    gap: 0px 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    max-width: 184px;
+    height: 60px;
+    flex-direction: column; 
+
+    @media (max-width: 768px){
+      font-size: 15px;
+      line-height: 18px;
+      max-width: 116px;
+      height: 38px;
+    }
+
+    @media (max-width: 320px){
+      margin-left: 11px;
+      gap: 0px 5px;
+      font-size: 5px;
+      line-height: 6px;
+      max-width: 41px;
+      height: 15px;
+    }
+  }
+  
+  .footer_second{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+    align-items: center;
+    text-align: center;
+
+    @media (max-width: 768px){
+      font-size: 15px;
+      line-height: 18px;
+    }
+
+    @media (max-width: 320px){
+      font-size: 5px;
+      line-height: 6px;
+    }
+
+  }
+  
+  .icon__inst{
+    width: 20px;
+    height: 20px;
+
+    @media (max-width: 320px){
+      width: 5px;
+      height: 5px;
+    }
+  }
+  
+  .icon__tg{
+    width: 20px;
+    height: 20px;
+
+    @media (max-width: 320px){
+      width: 5px;
+      height: 5px;
+    }
+  }
+  
+  .icon__vk{
+    width: 29px;
+    height: 17px;
+
+    @media (max-width: 768px){
+      width: 23px;
+      height: 14px;
+    }
+
+    @media (max-width: 320px){
+      width: 9px;
+      height: 4px;
+    }
+  }
+  
+  .footer__one{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+    @media (max-width: 320px){
+      gap: 5px;
+    }
+  }
+  
+  .footer__links{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+    @media (max-width: 320px){
+      gap: 5px;
+    }
+  }
+  
