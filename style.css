@@ -425,7 +425,7 @@ body {
 @media (max-width: 768px) {
   .intro__title {
     font-size: 35px;
-    padding: 83px 0 0 48px;
+    padding: 81px 0 0 48px;
   }
 }
 @media (max-width: 320px) {
@@ -637,12 +637,12 @@ body {
 }
 @media (max-width: 320px) {
   .halls__title {
-    padding: 15px 20px 0 0;
+    padding: 14px 20px 0 0;
   }
 }
 
 .halls__line {
-  max-width: 327px;
+  max-width: 328px;
   background-color: #84964C;
   right: 0;
   top: 169px;
@@ -656,7 +656,7 @@ body {
 @media (max-width: 320px) {
   .halls__line {
     max-width: 80px;
-    top: 34px;
+    top: 33px;
   }
 }
 
@@ -676,7 +676,7 @@ body {
 }
 @media (max-width: 320px) {
   .halls__buttons {
-    padding: 29px 0 0 0;
+    padding: 30px 0 0 0;
     gap: 7px;
     flex-wrap: wrap;
   }
@@ -715,8 +715,9 @@ body {
 }
 
 .halls__button:hover {
-  background-color: #84964C;
-  color: #fff;
+  /*background-color: #84964C;
+  color: #fff;*/
+  cursor: pointer;
 }
 
 .halls__cards {
@@ -728,7 +729,7 @@ body {
 }
 @media (max-width: 768px) {
   .halls__cards {
-    gap: 12px 12px;
+    gap: 6px 12px;
     margin: 11px auto 0 auto;
     max-lines: 2;
   }
@@ -787,6 +788,11 @@ body {
     display: none;
   }
 }
+.button_color {
+  background-color: #84964C;
+  color: white;
+}
+
 .video__title {
   padding: 69px 0 0 81px;
 }
