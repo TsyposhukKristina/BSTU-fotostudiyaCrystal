@@ -13,6 +13,8 @@
 
     <link rel="stylesheet" href="style.css">
 
+
+
     <title>Фотостудия Crystal</title>
     
    
@@ -88,19 +90,43 @@
             <h2 class="halls__title page__title">Залы</h2>
             <div class="halls__line page__line"></div>
             <div class="halls__buttons">
-                <button class="halls__button">Кабинет</button>
-                <button class="halls__button">Циклорама</button>
-                <button class="halls__button">Комфорт</button>
-                <button class="halls__button">Детский</button>
+                <button class="halls__button button_color" data-hall="cabinet">Кабинет</button>
+                <button class="halls__button" data-hall="cyclorama">Циклорама</button>
+                <button class="halls__button" data-hall="comfort">Комфорт</button>
+                <button class="halls__button" data-hall="baby">Детский</button>
             </div>
-            <ul class="halls__cards">
-                <li class="halls__card"><img class="halls__img" src="./assets/png/Rectangle10.png" alt=""></li>
-                <li class="halls__card-none-mobile"><img class="halls__img" src="./assets/png/Rectangle11.png" alt=""></li>
-                <li class="halls__card-none-mobile"><img class="halls__img" src="./assets/png/Rectangle12.png" alt=""></li>
-                <li class="halls__card-none-mobile"><img class="halls__img" src="./assets/png/Rectangle13.png" alt=""></li>
-                <li class="halls__card-none"><img class="halls__img" src="./assets/png/Rectangle8(1).png" alt=""></li>
-                <li class="halls__card-none"><img class="halls__img" src="./assets/png/Rectangle9.png" alt=""></li>
-            </ul>
+            <div class="photo__slider">
+                <div class="slider">
+                    <ul class="halls__cards slider_left">  
+                        <li class="halls__card"><img class="halls__img" src="./assets/png/Rectangle8(1).png" alt=""></li>
+                        <li class="halls__card-none-mobile"><img class="halls__img" src="./assets/png/Rectangle11.png" alt=""></li>
+                        <li class="halls__card-none-mobile"><img class="halls__img" src="./assets/png/Rectangle13.png" alt=""></li>
+                        <li class="halls__card-none-mobile"><img class="halls__img" src="./assets/png/Rectangle10.png" alt=""></li>
+                        <li class="halls__card-none"><img class="halls__img" src="./assets/png/Rectangle12.png" alt=""></li>
+                        <li class="halls__card-none"><img class="halls__img" src="./assets/png/Rectangle9.png" alt=""></li>
+                    </ul>
+                    <ul class="halls__cards slider_center">  
+                        <li class="halls__card"><img class="halls__img" src="./assets/png/Rectangle8(1).png" alt=""></li>
+                        <li class="halls__card-none-mobile"><img class="halls__img" src="./assets/png/Rectangle11.png" alt=""></li>
+                        <li class="halls__card-none-mobile"><img class="halls__img" src="./assets/png/Rectangle13.png" alt=""></li>
+                        <li class="halls__card-none-mobile"><img class="halls__img" src="./assets/png/Rectangle10.png" alt=""></li>
+                        <li class="halls__card-none"><img class="halls__img" src="./assets/png/Rectangle12.png" alt=""></li>
+                        <li class="halls__card-none"><img class="halls__img" src="./assets/png/Rectangle9.png" alt=""></li>
+                    </ul>
+                    <ul class="halls__cards slider_right">  
+                        <li class="halls__card"><img class="halls__img" src="./assets/png/Rectangle8(1).png" alt=""></li>
+                        <li class="halls__card-none-mobile"><img class="halls__img" src="./assets/png/Rectangle11.png" alt=""></li>
+                        <li class="halls__card-none-mobile"><img class="halls__img" src="./assets/png/Rectangle13.png" alt=""></li>
+                        <li class="halls__card-none-mobile"><img class="halls__img" src="./assets/png/Rectangle10.png" alt=""></li>
+                        <li class="halls__card-none"><img class="halls__img" src="./assets/png/Rectangle12.png" alt=""></li>
+                        <li class="halls__card-none"><img class="halls__img" src="./assets/png/Rectangle9.png" alt=""></li>
+                    </ul>
+                </div>
+                <div class="arrows">
+                    <button class="button_slider_left">&lt;--</button>
+                    <button class="button_slider_right">--></button>
+                </div>
+            </div>
         </section>
         <section class="video wrapper">
             <h2 class="video__title page__title">Видео</h2>
@@ -196,5 +222,6 @@
             </p></div>
          </div>
     </main>
+    <script src="script.js"></script>
 </body>
   
