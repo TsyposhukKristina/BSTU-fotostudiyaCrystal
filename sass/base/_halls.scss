@@ -1,0 +1,227 @@
+.halls__title{
+    text-align: right;
+    padding: 100px 104px 0 0;
+
+    @media (max-width: 768px){
+      padding: 42px 46px 0 0;
+    }
+
+    @media (max-width: 320px){
+      padding: 14px 20px 0 0;
+    }
+  }
+  
+  .halls__line{
+    max-width: 328px;
+    background-color: #84964C;
+    right: 0;
+    top: 169px; 
+
+    @media (max-width: 768px){
+      max-width: 168.5px;
+      top: 82px; 
+    }
+
+    @media (max-width: 320px){
+      max-width: 80px;
+      top: 33px; 
+    }
+  }
+  
+  .halls__buttons {
+    padding: 107px 0 0 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 0 10px;
+
+    @media (max-width: 768px){
+      padding: 91px 0 0 0;
+      gap: 12px 11px;
+      flex-wrap: wrap;
+    }
+
+    @media (max-width: 320px){
+      padding: 30px 0 0 0;
+      gap: 7px;
+      flex-wrap: wrap;
+    }
+  }
+
+  .halls__button {
+    border: 3px solid #84964C;
+    width: 228px;
+    height: 76px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    background-color: #fff;
+    transition: 0.6s all ease-in-out;
+
+    @media (max-width: 768px){
+      width: 274px;
+      height: 63px;   
+      font-size: 30px;
+      line-height: 36px;
+    }
+
+    @media (max-width: 320px){
+      border: 1px solid #84964C;
+      width: 185px;
+      height: 31px;   
+      font-size: 15px;
+      line-height: 18px;
+    }
+  }
+  
+  .halls__button:hover {
+    /*background-color: #84964C;
+    color: #fff;*/
+    cursor: pointer;
+  }
+  
+  .halls__cards {
+    display: flex;
+    gap: 0px 9px;
+    justify-content: center;
+    margin: 14px auto 0 auto;
+    flex-wrap: wrap;
+
+    @media (max-width: 768px){
+      gap: 6px 12px;
+      margin: 11px auto 0 auto;
+      max-lines: 2;
+    }
+
+    @media (max-width: 320px){
+      gap: 12px 12px;
+      margin: 11px auto 0 auto;
+      max-lines: 2;
+    }
+  
+  }
+  
+  .halls__card {
+
+    @media (max-width: 768px){
+      width: 308px;
+      height: 463px;
+    }
+
+    @media (max-width: 320px){
+      width: 308px;
+      height: 463px;
+    }
+  }
+  
+  .halls__img {
+    width: 308px;
+    height: 463px;
+
+    @media (max-width: 768px){
+      width: 308px;
+      height: 463px;
+    }
+
+    @media (max-width: 320px){
+      width: 308px;
+      height: 463px;
+    }
+  }
+
+  .halls__card-none{
+
+    @media (max-width: 768px){
+          display: none;
+    }
+
+    @media (max-width: 320px){
+      display: none;
+    }
+ 
+  }
+
+  @media (max-width: 320px){
+    .halls__card-none-mobile{
+      display: none;
+    }
+  }
+
+  .button_color {
+    background-color: #84964C;
+    color: white;
+  }
+  
+  /*slider*/
+
+  .photo__slider {
+    position: relative;
+    height: 954px;
+    overflow-x: hidden;
+     @media (max-width: 768px){
+        height: 957px;
+      }
+      @media (max-width: 320px){
+        height: 482px;
+      }
+  }
+
+  .slider {
+    display: flex;
+    width: 300%;
+    position: absolute;
+    left: -100%;
+    transition-duration: 3s;
+  }
+
+  .arrows {
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    justify-content: space-between;
+    top: calc(50% - 10px);
+    opacity: 0;
+    transition: all 3s;
+
+    .slider:hover + &, &:hover {
+        opacity: 1;
+    }
+
+  }
+
+
+  .move_left {
+    animation-name: move_left;
+    animation-duration: 2s;
+  }
+  
+  @keyframes move_left { 
+    0% { 
+      left: -100%;
+    } 
+    100% {
+      left: -200%;
+    } 
+  }
+  
+  .move_right {
+    animation-name: move_right;
+    animation-duration: 2s;
+  }
+  
+  @keyframes move_right { 
+    0% { 
+      left: -100%;
+    } 
+    100% {
+      left: 0%;
+    } 
+  }
+  
+
+  

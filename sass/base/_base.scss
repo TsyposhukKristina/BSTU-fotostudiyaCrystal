@@ -1,0 +1,69 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *::before, *::after{
+    box-sizing: inherit;
+  }
+  
+  .burger{
+    display: none;
+  }
+  
+  .wrapper{
+    max-width: 1024px;
+    margin: 0 auto;
+    position: relative;
+
+    @media (max-width: 768px){
+        max-width: 768px;
+    }
+
+    @media (max-width: 320px){
+        max-width: 320px;
+    }
+  }
+  
+  .page__title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+    color: #000000;
+
+    @media (max-width: 768px){       
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    @media (max-width: 320px){
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+  }
+  
+  .page__line{
+    position: absolute;
+    width: 327px;
+    height: 12px;
+    transform: rotate(180deg);
+
+    @media (max-width: 768px){
+      width: 180px;
+    }
+
+    @media (max-width: 320px){
+      width: 80px;
+        height: 4px;
+    }
+  }
+  
+  body {
+      font-family: Inter;
+      font-size: 30px;
+      line-height: 36px;
+      font-weight: 300;
+      font-style: normal;
+      color: black;
+  }
