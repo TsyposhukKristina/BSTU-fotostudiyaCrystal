@@ -129,3 +129,20 @@ slider.addEventListener('animationend', () => {
 
 buttonLeft.addEventListener('click', sliderRight);
 buttonRight.addEventListener('click', sliderLeft);
+
+
+
+/*calc*/
+
+function multiply(a, b){
+  return a*b;
+}
+
+/* html
+<div class="uCalc_432497">
+
+     </div>
+     <script> var widgetOptions432497 = { bg_color: "transparent" }; 
+     (function() { var a = document.createElement("script"), h = "head"; 
+     a.async = true; a.src = (document.location.protocol == "https:" ? "https:" : "http:") + "//ucalc.pro/api/widget.js?id=432497&t="+Math.floor(new Date()/18e5); document.getElementsByTagName(h)[0].appendChild(a) })();
+     </script>

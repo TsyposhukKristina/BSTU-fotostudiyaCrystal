@@ -13,7 +13,7 @@
   }
   
   .calc__title{
-    padding: 60px 0 0 75px;
+    padding: 65px 0 0 75px;
 
     @media (max-width: 768px){
       padding: 39px 0 0 40px;
@@ -27,38 +27,38 @@
   
   .calc__line{
     left: 0px;
-    top: 135px;
+    top: 133px;
     background-color: #A28364;
     width: 855px;
 
     @media (max-width: 768px){
-      top: 85px;
+      top: 79px;
       width: 499.5px;
     }
 
     @media (max-width: 320px){
-      top: 79px;
+      top: 77px;
       width: 236.5px;
     }
   }
 
   .calc__poledlyazapoln {
-    max-width: 472px;
+    max-width: 503px;
     margin: 0 auto;
-    padding: 122px 0 0 0;
+    padding: 134px 0 0 32px;
     display: flex;
     flex-direction: column;
     gap: 16px 0;
 
     @media (max-width: 768px){
       max-width: 260px;
-      padding: 55px 0 0 0;
+      padding: 65px 0 0 0;
       gap: 16px 0;
     }
 
     @media (max-width: 320px){
       max-width: 201px;
-      padding: 105px 0 0 0;
+      padding: 108px 0 0 0px;
       gap: 16px 0;
     }
   }
@@ -71,18 +71,15 @@
     gap: 16px;
     align-items: center;
    
-
     @media (max-width: 768px){
       min-height: 38px;
       gap: 16px;
-      /*padding: 0 0 0 52px;*/
     }
 
     @media (max-width: 320px){
       border: 1px solid #A18364;
       min-height: 29px;
       gap: 16px;
-      /*padding: 0 0 0 48px;*/
     }
   }
 
@@ -96,7 +93,7 @@
     align-items: center;
     text-align: center;
     color: #603911;
-    padding: 0 0 0 98px;
+    padding: 0 0 0 105px;
 
     @media (max-width: 768px){
       font-size: 15px;
@@ -121,7 +118,7 @@
     align-items: center;
     text-align: center;
     color: #603911;
-    padding: 0 0 0 71px;
+    padding: 0 0 0 62px;
 
     @media (max-width: 768px){
       font-family: 'Inter';
@@ -133,13 +130,13 @@
       align-items: center;
       text-align: center;
       color: #603911;
-      padding: 0 0 0 31px;
+      padding: 0 0 0 25.5px;
     }
 
     @media (max-width: 320px){
       font-size: 10px;
       line-height: 12px;
-      padding-left: 34px;
+      padding-left: 28px;
     }
   }
 
@@ -223,23 +220,42 @@
     max-width: 1024px;
     position: relative;
     min-height: 185px;
-    padding: 235px 10px 0 10px;
+    padding: 0px 10px 0 10px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     /*gap: 85px 0;*/
+    padding: 252px 10px 0 10px;
 
     @media (max-width: 768px){
       max-width: 768px;
       min-height: 84px;
-      padding: 94px 10px 0 10px;
+      padding: 120px 10px 0 10px;
     }
 
     @media (max-width: 320px){
       max-width: 320px;
       min-height: 39px;
-      padding: 119px 11px 0 11px;
+      padding: 230px 11px 0 11px;
     }
   }
+
+
+
+  
+  /*<!-- <div class="uCalc_432497">
+  </div>
+  <script> 
+  var widgetOptions432497 = { bg_color: "transparent" }; 
+  (function() 
+  { var a = document.createElement("script"), 
+  h = "head"; 
+  a.async = true; 
+  a.src = (document.location.protocol == "https:" ? "https:" : "http:") + "//ucalc.pro/api/widget.js?id=432497&t="+Math.floor(new Date()/18e5); 
+  document.getElementsByTagName(h)[0].appendChild(a) 
+  })();
+  </script> -->
+
+  
 
